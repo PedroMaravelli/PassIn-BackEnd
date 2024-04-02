@@ -2,6 +2,7 @@
 using PassIn.Application.UseCases.Events.Register;
 using PassIn.Communication.Requests;
 using PassIn.Communication.Responses;
+using PassIn.Exceptions;
 
 namespace PassIn.Api.Controllers
 {
@@ -10,6 +11,9 @@ namespace PassIn.Api.Controllers
     public class EventsController : ControllerBase
     {
         [HttpPost]
+        [ProducesResponseType(typeof(ResponseRegisteredEventJson), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ResponseRegisteredEventJson), StatusCodes.Status400BadRequest)]
+
         public IActionResult Register([FromBody] RequestEventJson request) 
         {
             try
@@ -21,7 +25,7 @@ namespace PassIn.Api.Controllers
 
                 return Created();
             }
-            catch (ArgumentException ex) 
+            catch (PassInException ex) 
             {
                 return BadRequest(new ResponseErrorJson(ex.Message) );
             }
