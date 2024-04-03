@@ -20,10 +20,10 @@ namespace PassIn.Api.Controllers
             {
                 var useCase = new RegisterEventUseCase();
 
-                useCase.Execute(request);
+               var response =  useCase.Execute(request);
 
 
-                return Created();
+                return Created(string.Empty, response );
             }
             catch (PassInException ex) 
             {

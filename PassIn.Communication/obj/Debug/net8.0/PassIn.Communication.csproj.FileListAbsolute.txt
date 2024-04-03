@@ -9,3 +9,4 @@ D:\rocketseat\PassIn\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communi
 D:\rocketseat\PassIn\PassIn\PassIn.Communication\obj\Debug\net8.0\refint\PassIn.Communication.dll
 D:\rocketseat\PassIn\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.pdb
 D:\rocketseat\PassIn\PassIn\PassIn.Communication\obj\Debug\net8.0\ref\PassIn.Communication.dll
+D:\rocketseat\PassIn\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.sourcelink.json

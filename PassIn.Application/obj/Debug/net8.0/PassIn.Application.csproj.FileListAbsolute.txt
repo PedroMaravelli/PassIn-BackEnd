@@ -17,3 +17,4 @@ D:\rocketseat\PassIn\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Applicati
 D:\rocketseat\PassIn\PassIn\PassIn.Application\obj\Debug\net8.0\refint\PassIn.Application.dll
 D:\rocketseat\PassIn\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Application.pdb
 D:\rocketseat\PassIn\PassIn\PassIn.Application\obj\Debug\net8.0\ref\PassIn.Application.dll
+D:\rocketseat\PassIn\PassIn\PassIn.Application\obj\Debug\net8.0\PassIn.Application.sourcelink.json
